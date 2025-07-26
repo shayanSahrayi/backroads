@@ -7,7 +7,7 @@ const Footer = () => {
             <ul className="footer-links">
                 {PageLink.map((link) => {
                     // footer-link
-                    const { id, href, text } = link;
+                   
                     return (
                 
                        <PageLinkComponet item={'footer-link'} link={link} />
@@ -16,7 +16,7 @@ const Footer = () => {
             </ul>
             <ul className="footer-icons">
                 {SocialLink.map((link) => {
-                    const { id, href, icon } = link;
+                  
                     return (
                         <SocialLinkComponent link={link} item={'footer-icon'}/>
 
